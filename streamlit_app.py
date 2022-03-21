@@ -19,3 +19,10 @@ st.metric(label="Gas price", value=4, delta=-0.5,
 
 st.metric(label="Active developers", value=123, delta=123,
      delta_color="off")
+
+
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)
