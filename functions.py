@@ -1,2 +1,4 @@
 def print_hi():
-  print("Hello, Alena, you can see a new version now!!!!")
+  print("Wow Artem has fixed this bug simply by looking at it!!!!")
+
+ 
